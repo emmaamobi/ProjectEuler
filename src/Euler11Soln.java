@@ -132,7 +132,7 @@ public class Euler11Soln {
 //				}
 //			}
 //		}
-		System.out.println("Hello world");
+
 
 
 	

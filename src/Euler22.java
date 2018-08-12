@@ -30,7 +30,7 @@ public class Euler22 {
 //		}
 //		System.out.println(getSumOfLetters(names[937])*(937+1));
 //		System.out.println(names[937]);
-		System.out.println(names[60]);
+		System.out.println((int)'a');
 	}
 	
 	public static int getSumOfLetters(String word) {
