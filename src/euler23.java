@@ -13,7 +13,9 @@ public class euler23 {
 		}
 		
 		System.out.println(abuNums.size());
-		
+		System.out.println("Hello world");
+		System.out.println("hello world");
+
 	}
 	public static boolean isPerfectNum(int num) {
 		int sum = 0;

@@ -10,7 +10,7 @@ public class Euler11Soln {
 		String strLine = null;
         List<String> list = new ArrayList<String>();
         try {
-             BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Owner\\desktop\\grid.txt"));
+             BufferedReader br = new BufferedReader(new FileReader("grid.txt"));
               while ((strLine = br.readLine()) != null) {
             	  list.add(strLine);
               }

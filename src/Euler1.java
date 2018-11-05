@@ -7,6 +7,7 @@ public class Euler1 {
 			}
 		}
 		System.out.println(sum);
+
 	}
 
 }

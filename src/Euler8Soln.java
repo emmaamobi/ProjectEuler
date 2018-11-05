@@ -11,7 +11,7 @@ public class Euler8Soln {
 	        String strLine = null;
 	        List<String> list = new ArrayList<String>();
 	        try {
-	             BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Owner\\desktop\\numbers.txt"));
+	             BufferedReader br = new BufferedReader(new FileReader("numbers.txt"));
 	              while ((strLine = br.readLine()) != null) {
 	            	  list.add(strLine);
 	              }
@@ -55,6 +55,7 @@ public class Euler8Soln {
 	        for (int i = 0; i <20;i++) {
 	        	System.out.println("something");
 	        }
+			System.out.println("Hello world");
 //	        System.out.println(prod);
 		
 		

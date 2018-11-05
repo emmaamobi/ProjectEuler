@@ -50,7 +50,7 @@ public class Euler2 {
 //			
 //		}
 //		System.out.println(sum);
-		System.out.println("Hello world");
+
 		
 	}
 

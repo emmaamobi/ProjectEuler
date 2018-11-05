@@ -12,9 +12,9 @@ public class euler20 {
 		for (int i =0;i<num.length();i++) {
 			sum += Character.getNumericValue(num.charAt(i));
 		}
-		System.out.println(sum);
-		
-		
+        System.out.println(sum);
+
+
 		
 	}
 }
