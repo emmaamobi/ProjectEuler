@@ -1,7 +1,4 @@
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -9,8 +6,13 @@ public class Euler11Soln {
 	public static void main (String[] args) {
 		String strLine = null;
         List<String> list = new ArrayList<String>();
+        System.out.println("Hello");
+        //System.out.println(new File("grid.txt").getAbsolutePath());
+		//System.out.println(System.getProperty("user.dir"));
+		System.out.println(new File("").getAbsolutePath());
+
         try {
-             BufferedReader br = new BufferedReader(new FileReader("grid.txt"));
+             BufferedReader br = new BufferedReader(new FileReader("EulerStuff/src/grid.txt"));
               while ((strLine = br.readLine()) != null) {
             	  list.add(strLine);
               }
