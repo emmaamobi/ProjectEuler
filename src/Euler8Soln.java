@@ -52,7 +52,7 @@ public class Euler8Soln {
 //	        for (int i=0,j=1;i<4;i++,j++) {
 //	        	prod *= Integer.parseInt(bigNum.substring(i,j));
 //	        }
-	       
+
 		
 		
 	

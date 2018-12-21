@@ -2,18 +2,28 @@
 public class Euler5 {
 	public static void main(String[] args) {
 //		System.out.println("Hello world");
-		int largest = 0;
-		int[] nums = new int[10];
-		for (int i = 0; i<nums.length;i++) {
-			nums[i] = i+1;
+		int ans = 1;
+		for (int i= 1;i<=20;i++) {
+            ans = lcm(ans,i);
 		}
-		for (int i= 0;i<nums.length;i++) {
-			System.out.println(nums[i]);
-		}
-		
+		System.out.println(ans);
+
 		
 	
 		
+	}
+
+	public static int gcd (int a, int b){
+		while (b > 0){
+			int temp = b;
+			b = a % b;
+			a = temp;
+		}
+		return a;
+	}
+	public static int lcm(int a, int b){
+		return a * (b / gcd(a,b));
+
 	}
 
 }
