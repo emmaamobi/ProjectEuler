@@ -1,6 +1,8 @@
 .classpath
+*.class
 .project
 .settings/
 bin
 .idea/
 *.iml
+*.xml

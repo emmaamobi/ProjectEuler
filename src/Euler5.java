@@ -9,9 +9,10 @@ public class Euler5 {
 		System.out.println(ans);
 
 		
-	
-		
+
+		System.out.println("Hello world ");
 	}
+
 
 	public static int gcd (int a, int b){
 		while (b > 0){
