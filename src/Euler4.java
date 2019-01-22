@@ -14,6 +14,7 @@ public class Euler4 {
             }
         }
         System.out.println(maxProd);
+        
 
 
     }

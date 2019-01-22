@@ -36,20 +36,21 @@ public class Euler2 {
 		
 	}
 	public static void main (String[] args) {
-		System.out.println(recurfib(50));
-		System.out.println(fib(50));
-//		boolean notUpto4m = true;
-//		int sum = 0;
-//		int i = 0;
-//		while (fib(i) <= 4000000) {
-//			if (fib(i) % 2 == 0) {
-//				sum += fib(i);
-//			}
-//			i++;
-//			
-//			
-//		}
-//		System.out.println(sum);
+		 System.out.println(recurfib(50));
+		 System.out.println(fib(50));
+
+		boolean notUpto4m = true;
+		int sum = 0;
+		int i = 0;
+		while (fib(i) <= 4000000) {
+			if (fib(i) % 2 == 0) {
+				sum += fib(i);
+			}
+			i++;
+
+
+		}
+		System.out.println(sum);
 
 		
 	}
