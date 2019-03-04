@@ -26,7 +26,7 @@ public class Euler2 {
 		int ans = 0;
 		int prePrev = 1;
 		int prev = 2;
-		
+
 		for (int i = 2; i <= n ; i++ ) {
 			ans = prev + prePrev;
 			prePrev = prev;
@@ -51,6 +51,7 @@ public class Euler2 {
 
 		}
 		System.out.println(sum);
+        System.out.println("[ Testing out a surround thing ]");
 
 		
 	}
